@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UiController;
+use App\Http\Controllers\UpdateController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,6 +25,6 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 
-Route::get('/ui', [UiController::class, 'index'])->name('iu');
+Route::get('/update', [UpdateController::class, 'index'])->name('update');
 
 require __DIR__ . '/auth.php';

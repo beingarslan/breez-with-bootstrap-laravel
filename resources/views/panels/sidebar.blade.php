@@ -8,7 +8,7 @@
             <div class="collapse show" id="home-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <li><a href="/dashboard" class="link-dark d-inline-flex text-decoration-none rounded">Dashboard</a></li>
-                <li><a href="/ui?page=Updates" class="link-dark d-inline-flex text-decoration-none rounded">Updates</a></li>
+                <li><a href="/update" class="link-dark d-inline-flex text-decoration-none rounded">Updates</a></li>
                 <li><a href="/ui?page=Reports" class="link-dark d-inline-flex text-decoration-none rounded">Reports</a></li>
               </ul>
             </div>
