@@ -9,7 +9,7 @@
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <li><a href="/dashboard" class="link-dark d-inline-flex text-decoration-none rounded">Dashboard</a></li>
                 <li><a href="/update" class="link-dark d-inline-flex text-decoration-none rounded">Updates</a></li>
-                <li><a href="/ui?page=Reports" class="link-dark d-inline-flex text-decoration-none rounded">Reports</a></li>
+                <li><a href="/report" class="link-dark d-inline-flex text-decoration-none rounded">Reports</a></li>
               </ul>
             </div>
           </li>
@@ -19,10 +19,10 @@
             </button>
             <div class="collapse" id="dashboard-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="/ui?page=Overview" class="link-dark d-inline-flex text-decoration-none rounded">Overview</a></li>
-                <li><a href="/ui?page=Weekly" class="link-dark d-inline-flex text-decoration-none rounded">Weekly</a></li>
-                <li><a href="/ui?page=Monthly" class="link-dark d-inline-flex text-decoration-none rounded">Monthly</a></li>
-                <li><a href="/ui?page=Annually" class="link-dark d-inline-flex text-decoration-none rounded">Annually</a></li>
+                <li><a href="/overview" class="link-dark d-inline-flex text-decoration-none rounded">Overview</a></li>
+                <li><a href="/weekly" class="link-dark d-inline-flex text-decoration-none rounded">Weekly</a></li>
+                <li><a href="/monthly" class="link-dark d-inline-flex text-decoration-none rounded">Monthly</a></li>
+                <li><a href="/annually" class="link-dark d-inline-flex text-decoration-none rounded">Annually</a></li>
               </ul>
             </div>
           </li>
@@ -32,10 +32,10 @@
             </button>
             <div class="collapse" id="orders-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="/ui?page=New" class="link-dark d-inline-flex text-decoration-none rounded">New</a></li>
-                <li><a href="/ui?page=Processed" class="link-dark d-inline-flex text-decoration-none rounded">Processed</a></li>
-                <li><a href="/ui?page=Shipped" class="link-dark d-inline-flex text-decoration-none rounded">Shipped</a></li>
-                <li><a href="/ui?page=Returned" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+                <li><a href="/order/new" class="link-dark d-inline-flex text-decoration-none rounded">New</a></li>
+                <li><a href="/order/processed" class="link-dark d-inline-flex text-decoration-none rounded">Processed</a></li>
+                <li><a href="/order/shipped" class="link-dark d-inline-flex text-decoration-none rounded">Shipped</a></li>
+                <li><a href="/order/returned" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
               </ul>
             </div>
           </li>
@@ -46,9 +46,9 @@
             </button>
             <div class="collapse" id="account-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="/ui?page=New" class="link-dark d-inline-flex text-decoration-none rounded">New...</a></li>
-                <li><a href="/ui?page=Profile" class="link-dark d-inline-flex text-decoration-none rounded">Profile</a></li>
-                <li><a href="/ui?page=Settings" class="link-dark d-inline-flex text-decoration-none rounded">Settings</a></li>
+                <li><a href="/account/new" class="link-dark d-inline-flex text-decoration-none rounded">New...</a></li>
+                <li><a href="/account/profile" class="link-dark d-inline-flex text-decoration-none rounded">Profile</a></li>
+                <li><a href="/account/setting" class="link-dark d-inline-flex text-decoration-none rounded">Settings</a></li>
                 <li><a href="/logout" class="link-dark d-inline-flex text-decoration-none rounded">Sign out</a></li>
               </ul>
             </div>
