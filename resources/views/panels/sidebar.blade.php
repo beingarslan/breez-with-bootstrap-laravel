@@ -1,11 +1,11 @@
 <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-    <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+    <div class="flex-shrink-0 p-3 bg-white">
         <ul class="list-unstyled ps-0">
           <li class="mb-1">
             <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
               Home
             </button>
-            <div class="collapse show" id="home-collapse" style="">
+            <div class="collapse show" id="home-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <li><a href="/dashboard" class="link-dark d-inline-flex text-decoration-none rounded">Dashboard</a></li>
                 <li><a href="/ui?page=Updates" class="link-dark d-inline-flex text-decoration-none rounded">Updates</a></li>
